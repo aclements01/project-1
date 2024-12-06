@@ -7,21 +7,14 @@ body {
 }
 
 nav section.nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
   width: 100vw;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
   height: 100px;
   background-color: cadetblue;
-}
-
-section.nav div {
+  color: antiquewhite;
   font-size: 20px;
-  margin: 20%;
-  color: #ffffff;
-  display: grid;
-  grid-template-rows: 2fr 1fr;
 }
 
 img {
