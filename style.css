@@ -2,8 +2,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: 100vh;
-
-  display: grid;
 }
 
 nav {
@@ -24,4 +22,9 @@ nav div {
 
 section {
   display: flex;
+}
+
+img {
+  width: 96vw;
+  height: auto;
 }
