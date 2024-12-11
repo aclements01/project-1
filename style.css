@@ -11,14 +11,14 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  background-color: cadetblue;
+  background-color: brown;
   height: 100px;
 }
 
 nav div {
   font-size: 30px;
   margin: 30px;
-  color: black;
+  color: goldenrod;
 }
 
 section {
@@ -27,14 +27,12 @@ section {
 
 img {
   display: flex;
-  width: 95vw;
-  height: auto;
-  margin: 30px;
+  width: 100vw;
 }
 
 main {
   display: grid;
-  width: 95vw;
+  width: 96vw;
   height: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
@@ -46,8 +44,8 @@ button {
   margin-bottom: 20px;
 
   background-color: black;
-  color: cadetblue;
+  color: goldenrod;
   border-width: 5px;
-  border-color: cadetblue;
+  border-color: brown;
   font-size: 30px;
 }
