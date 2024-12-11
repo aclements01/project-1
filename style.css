@@ -2,7 +2,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: 100vh;
-
   background-color: black;
 }
 
@@ -13,13 +12,13 @@ nav {
   align-items: center;
 
   background-color: cadetblue;
-  height: 75px;
+  height: 100px;
 }
 
 nav div {
   font-size: 20px;
   margin: 20px;
-  color: white;
+  color: black;
 }
 
 section {
@@ -27,6 +26,26 @@ section {
 }
 
 img {
+  display: flex;
   width: 96vw;
   height: auto;
+  margin: 20px;
+}
+
+main {
+  display: grid;
+  width: 96vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+button {
+  height: 200px;
+  margin-bottom: 20px;
+
+  background-color: black;
+  color: cadetblue;
+  border-width: 5px;
+  border-color: cadetblue;
 }
