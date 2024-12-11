@@ -16,8 +16,8 @@ nav {
 }
 
 nav div {
-  font-size: 20px;
-  margin: 20px;
+  font-size: 30px;
+  margin: 30px;
   color: black;
 }
 
@@ -27,17 +27,18 @@ section {
 
 img {
   display: flex;
-  width: 96vw;
+  width: 95vw;
   height: auto;
-  margin: 20px;
+  margin: 30px;
 }
 
 main {
   display: grid;
-  width: 96vw;
+  width: 95vw;
+  height: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin: 20px;
+  grid-gap: 15px;
+  margin: 30px;
 }
 
 button {
@@ -48,4 +49,5 @@ button {
   color: cadetblue;
   border-width: 5px;
   border-color: cadetblue;
+  font-size: 30px;
 }
