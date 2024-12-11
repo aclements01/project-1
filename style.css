@@ -2,35 +2,22 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: 100vh;
-  background-color: black;
-  color: antiquewhite;
+
+  display: grid;
 }
 
 nav {
   display: flex;
-  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+
   height: 75px;
   background-color: cadetblue;
-}
-
-.nav {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  margin: 15px;
-}
-
-.one {
-  grid-column: 2fr;
-  grid-row: 1fr;
-}
-
-.offset {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  display: flex;
 }
 
 img {
   max-width: 100vw;
   height: auto;
+  display: flex;
 }
