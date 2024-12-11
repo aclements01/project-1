@@ -10,14 +10,18 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
-  height: 75px;
   background-color: cadetblue;
-  display: flex;
+  height: 75px;
 }
 
-img {
-  max-width: 100vw;
-  height: auto;
+nav div {
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+}
+
+section {
   display: flex;
 }
